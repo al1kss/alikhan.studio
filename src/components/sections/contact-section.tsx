@@ -72,7 +72,7 @@ const ContactSection = () => {
   ]
 
   return (
-    <section id="contact" className="relative min-h-screen py-20 px-6">
+    <section id="contact" className="relative min-h-screen py-20 px-6 bg-gradient-to-br from-zinc-900 via-slate-800/60 to-zinc-900">
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <motion.div

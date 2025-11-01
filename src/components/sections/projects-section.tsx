@@ -23,7 +23,7 @@ const ProjectsSection = () => {
   }
 
   return (
-    <section id="projects" className="relative min-h-screen py-20 px-6 bg-gradient-to-tl from-black via-zinc-600/20 to-black">
+    <section id="projects" className="relative min-h-screen py-20 px-6 bg-gradient-to-br from-slate-900 via-zinc-800/40 to-slate-900">
 
       <div className="max-w-7xl mx-auto">
         <motion.div

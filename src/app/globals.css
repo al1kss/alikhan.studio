@@ -16,7 +16,7 @@
   }
 
   body {
-    @apply text-slate-100;
+    @apply text-slate-50;
     font-family: Inter, system-ui, sans-serif;
     line-height: 1.6;
   }
@@ -27,15 +27,15 @@
   }
 
   ::-webkit-scrollbar-track {
-    @apply bg-slate-900;
+    @apply bg-zinc-900;
   }
 
   ::-webkit-scrollbar-thumb {
-    @apply bg-slate-600 rounded;
+    @apply bg-slate-500 rounded;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    @apply bg-slate-500;
+    @apply bg-slate-400;
   }
 
   /* Selection Colors */
@@ -55,7 +55,7 @@
 
   /* Project Cards */
   .project-card {
-    @apply bg-slate-900 border border-slate-800 transition-all duration-300 relative overflow-hidden;
+    @apply bg-slate-800/50 border border-slate-700 transition-all duration-300 relative overflow-hidden;
   }
 
   .project-card::before {
@@ -114,13 +114,13 @@
 
   /* Category Pills */
   .category-pill {
-    @apply bg-slate-800 border border-slate-700 transition-all duration-300 relative;
+    @apply bg-slate-700/50 border border-slate-600 transition-all duration-300 relative;
   }
 
   .category-pill:hover,
   .category-pill.active {
-    @apply -translate-y-1 border-slate-500;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    @apply -translate-y-1 border-slate-400;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
   }
 
   /* Loading States */
