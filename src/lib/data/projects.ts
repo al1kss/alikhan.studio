@@ -54,7 +54,7 @@ export const projects: Project[] = [
     title: 'Pizza Ordering Application',
     description: 'Developed a full-featured pizza ordering app with user authentication, menu management, cart functionality, and order tracking system.',
     image: '/projects/pizza-app.png',
-    date: '08.07.23',
+    date: '08.25',
     category: 'web-development',
     links: [
       { name: 'GitHub', url: 'https://github.com/al1kss/pizza-ordering-app' }
@@ -93,7 +93,7 @@ export const projects: Project[] = [
     date: '25.04.24',
     category: 'research',
     links: [
-      { name: 'Research Paper', url: '/research/turbine-efficiency.pdf' }
+      { name: 'Research Paper', url: '/research/research.pdf' }
     ],
     tags: ['Physics', 'Renewable Energy', 'Data Analysis']
   },
