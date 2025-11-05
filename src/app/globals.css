@@ -38,14 +38,12 @@
     @apply bg-slate-400;
   }
 
-  /* Selection Colors */
   ::selection {
     @apply bg-slate-700 text-slate-100;
   }
 }
 
 @layer components {
-  /* Glass Morphism Header */
   .glass-header {
     background: rgba(30, 41, 59, 0.7);
     backdrop-filter: blur(12px);
