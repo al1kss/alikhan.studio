@@ -47,10 +47,10 @@
 @layer components {
   /* Glass Morphism Header */
   .glass-header {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(30, 41, 59, 0.7);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    @apply border border-slate-800;
+    @apply border border-slate-700;
   }
 
   /* Project Cards */
