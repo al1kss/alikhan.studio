@@ -28,18 +28,6 @@ export const projects: Project[] = [
     tags: ['Python', 'Cloudflare']
   },
   {
-    id: 'school-website-6th-grade',
-    title: 'First School Website',
-    description: 'Created the first website for my school in 6th grade, presented to the principal and received a small scholarship :) This project sparked my passion for web development',
-    image: '/projects/school-web.png',
-    date: '12.19',
-    category: 'web-development',
-    links: [
-      { name: 'Video Showcase', url: 'https://drive.google.com/file/d/1y-CNLvD-MFAuCkxhaurOtnvwJuIOQkUG/view?usp=sharing' }
-    ],
-    tags: ['HTML', 'CSS', 'JavaScript']
-  },
-  {
     id: 'managebac-chrome-extension',
     title: 'ManageBac Calendar Sync',
     description: 'Developed a Chrome extension that automatically synchronizes slow ManageBac school timetables with Google Calendar, helping students manage their schedules more efficiently. Total of 246 users (checked through google analytics)',
@@ -52,6 +40,19 @@ export const projects: Project[] = [
       { name: 'Website', url: 'https://al1kss.github.io/ManageBac2Calendar/'}
     ],
     tags: ['Chrome Extension', 'JavaScript', 'Google Cloud', 'APIs']
+  },
+  {
+    id: 'nasa-space',
+    title: 'NASA Space Apps Hackathon',
+    description: 'Won 1st place in Japan, qualified for the Global Round (waiting). Coded real-time strategy game with NASA sustainability data!',
+    image: '/projects/nasa-hack.png',
+    date: '10.25',
+    category: 'web-development',
+    links: [
+      { name: 'Website', url: 'https://al1kss.pythonanywhere.com/'}
+    ],
+    tags: ['JavaScript', 'Database Analysis', 'AI Integration']
+
   },
   {
     id: 'ess-class-website',
@@ -68,14 +69,15 @@ export const projects: Project[] = [
   {
     id: 'pizza-ordering-app',
     title: 'Pizza Ordering Application',
-    description: 'Developed a full-featured pizza ordering app with user authentication, menu management, cart functionality, and order tracking system.',
+    description: 'Developed a full-featured pizza ordering app with user authentication, menu management, cart functionality, and order tracking system with special admin menu. Open-Sourced on the biggest Python Package website with +700K projects',
     image: '/projects/pizza-app.png',
-    date: '08.25',
-    category: 'web-development',
+    date: '02.25',
+    category: 'game-development',
     links: [
-      { name: 'GitHub', url: 'https://github.com/al1kss/pizza-ordering-app' }
+      { name: 'GitHub', url: 'https://github.com/al1kss/pizza-app' },
+      { name: 'PyPi', url: 'https://pypi.org/project/pizza-ordering-app/'}
     ],
-    tags: ['Full-Stack', 'E-commerce', 'Database']
+    tags: ['SQL', 'KivyMD', 'Python']
   },
   {
     id: 'minecraft-plugins',
@@ -112,6 +114,18 @@ export const projects: Project[] = [
       { name: 'Research Paper', url: '/research/research.pdf' }
     ],
     tags: ['Physics', 'Renewable Energy', 'Data Analysis']
+  },
+  {
+    id: 'school-website-6th-grade',
+    title: 'First School Website',
+    description: 'Created the first website for my school in 6th grade, presented to the principal and received a small scholarship :) This project sparked my passion for web development',
+    image: '/projects/school-web.png',
+    date: '12.19',
+    category: 'web-development',
+    links: [
+      { name: 'Video Showcase', url: 'https://drive.google.com/file/d/1y-CNLvD-MFAuCkxhaurOtnvwJuIOQkUG/view?usp=sharing' }
+    ],
+    tags: ['HTML', 'CSS', 'JavaScript']
   },
   {
     id: 'youtube-video-editing',
