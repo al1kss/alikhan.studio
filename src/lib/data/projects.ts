@@ -1,13 +1,12 @@
-
 import { Project } from '@/types';
 
 export const projects: Project[] = [
   {
     id: 'yourai-platform',
     title: 'YourAI - Advanced RAG Platform',
-    description: 'Built the first Cloudflare-LightRAG integration with custom chat UI, multiple AI assistants, and knowledge graph implementation. Features include file upload support and real-time streaming.',
-    image: '/projects/yourai.png', // You'll need to add actual images to public/projects/
-    date: '15.01.25',
+    description: 'Built custom Cloudflare-LightRAG AI assistants with advanced knowledge graph implementation. Features include file upload support and response based on the knowledge.',
+    image: '/projects/yourai.png',
+    date: '06.25',
     category: 'web-development',
     links: [
       { name: 'Website', url: 'https://sw-crazy-ai.vercel.app/' },
@@ -16,38 +15,55 @@ export const projects: Project[] = [
     tags: ['Next.js', 'FastAPI', 'LightRAG', 'Cloudflare AI']
   },
   {
+    id: 'lightrag-git',
+    title: 'Open Source Contribution to LightRAG by HKU',
+    description: "Enables companies and/or users without powerful servers to use advanced AI capabilities such as RAG. Contributed to major opensource project by HKU. Boosted downloads from 192k to 394k",
+    image: '/projects/lightrag.png',
+    date: '06.25',
+    category: 'tools',
+    links: [
+      { name: 'GitHub', url: 'https://github.com/HKUDS/LightRAG/commits?author=al1kss' },
+      { name: 'Research Paper', url: 'https://lightrag.github.io/'}
+    ],
+    tags: ['Python', 'Cloudflare']
+  },
+  {
     id: 'school-website-6th-grade',
     title: 'First School Website',
-    description: 'Created the first website for my school in 6th grade, presented to the principal and received a merit scholarship. This project sparked my passion for web development.',
-    image: '/projects/school-website.png',
-    date: '10.09.20',
+    description: 'Created the first website for my school in 6th grade, presented to the principal and received a small scholarship :) This project sparked my passion for web development',
+    image: '/projects/school-web.png',
+    date: '12.19',
     category: 'web-development',
-    links: [], // No links available for this old project
+    links: [
+      { name: 'Video Showcase', url: 'https://drive.google.com/file/d/1y-CNLvD-MFAuCkxhaurOtnvwJuIOQkUG/view?usp=sharing' }
+    ],
     tags: ['HTML', 'CSS', 'JavaScript']
   },
   {
     id: 'managebac-chrome-extension',
     title: 'ManageBac Calendar Sync',
-    description: 'Developed a Chrome extension that automatically synchronizes ManageBac school timetables with Google Calendar, helping students manage their schedules more efficiently.',
+    description: 'Developed a Chrome extension that automatically synchronizes slow ManageBac school timetables with Google Calendar, helping students manage their schedules more efficiently. Total of 246 users (checked through google analytics)',
     image: '/projects/managebac-extension.png',
-    date: '22.03.24',
+    date: '12.24',
     category: 'tools',
     links: [
-      { name: 'GitHub', url: 'https://github.com/al1kss/managebac-sync' }
+      { name: 'Extension', url: 'https://chromewebstore.google.com/detail/managebac-calendar-sync/fginnegojpkpbgeoajanjhaiacioboof'},
+      { name: 'GitHub', url: 'https://github.com/al1kss/ManageBac2Calendar' },
+      { name: 'Website', url: 'https://al1kss.github.io/ManageBac2Calendar/'}
     ],
-    tags: ['Chrome Extension', 'JavaScript', 'APIs']
+    tags: ['Chrome Extension', 'JavaScript', 'Google Cloud', 'APIs']
   },
   {
     id: 'ess-class-website',
     title: 'ESS Class Website',
     description: 'Built a comprehensive website for the Environmental Systems & Societies class at UWC ISAK Japan, featuring course materials, assignments, and interactive content.',
     image: '/projects/ess-website.png',
-    date: '15.11.23',
+    date: '11.24',
     category: 'web-development',
     links: [
       { name: 'GitHub', url: 'https://github.com/al1kss/ess-website' }
     ],
-    tags: ['React', 'Educational', 'Responsive Design']
+    tags: ['JavaScript', 'SQL', 'FastAPI']
   },
   {
     id: 'pizza-ordering-app',
@@ -71,7 +87,7 @@ export const projects: Project[] = [
     links: [
       { name: 'GitHub', url: 'https://github.com/al1kss/minecraft-plugins' }
     ],
-    tags: ['Java', 'Spigot API', 'Game Mechanics']
+    tags: ['Java', 'Spigot API']
   },
   {
     id: 'custom-mechanical-keyboard',
