@@ -49,7 +49,8 @@ export const projects: Project[] = [
     date: '10.25',
     category: 'web-development',
     links: [
-      { name: 'Website', url: 'https://al1kss.pythonanywhere.com/'}
+      { name: 'Website', url: 'https://al1kss.pythonanywhere.com/'},
+      { name: 'GitHub', url: 'https://github.com/tenzinl4ma/Hackathon'}
     ],
     tags: ['JavaScript', 'Database Analysis', 'AI Integration']
 
@@ -57,14 +58,15 @@ export const projects: Project[] = [
   {
     id: 'ess-class-website',
     title: 'ESS Class Website',
-    description: 'Built a comprehensive website for the Environmental Systems & Societies class at UWC ISAK Japan, featuring course materials, assignments, and interactive content.',
+    description: 'Built a website for the Environmental Systems & Societies IB class at UWC ISAK Japan, featuring important part of the class used for estimation of the population (Transect Sampling).',
     image: '/projects/ess-website.png',
     date: '11.24',
     category: 'web-development',
     links: [
-      { name: 'GitHub', url: 'https://github.com/al1kss/ess-website' }
+      { name: 'GitHub', url: 'https://github.com/al1kss/SpeciesTracker' },
+      { name: 'Website', url: 'https://al1ksss.pythonanywhere.com/' },
     ],
-    tags: ['JavaScript', 'SQL', 'FastAPI']
+    tags: ['JavaScript', 'SQL', 'Flask', 'Python']
   },
   {
     id: 'pizza-ordering-app',
@@ -83,32 +85,32 @@ export const projects: Project[] = [
     id: 'minecraft-plugins',
     title: 'Minecraft Server Plugins',
     description: 'Developed 2 large-scale Minecraft plugins for a server with ~40 active users. Included custom game mechanics, economy systems, and player management features.',
-    image: '/projects/minecraft-plugins.png',
-    date: '20.06.22',
+    image: '/projects/minecraft.png',
+    date: '06.23',
     category: 'game-development',
     links: [
-      { name: 'GitHub', url: 'https://github.com/al1kss/minecraft-plugins' }
+      { name: 'GitHub', url: 'https://github.com/al1kss/Battlecraft/releases/tag/v1.3.1' }
     ],
     tags: ['Java', 'Spigot API']
   },
   {
     id: 'custom-mechanical-keyboard',
     title: 'Custom Mechanical Keyboard',
-    description: 'Designed and assembled a fully custom mechanical keyboard including 3D modeling, PCB design, wiring, and firmware programming. Features hot-swappable switches and RGB lighting.',
+    description: 'Designed and assembled a fully custom mechanical keyboard including 3D modeling, PCB design, wiring, and firmware programming. Features 6 switches and custom firmware.',
     image: '/projects/keyboard.png',
-    date: '12.12.23',
+    date: '12.24',
     category: 'hardware',
     links: [
-      { name: 'GitHub', url: 'https://github.com/al1kss/custom-keyboard' }
+      { name: 'GitHub', url: 'https://github.com/al1kss/hackpad' }
     ],
-    tags: ['PCB Design', '3D Modeling', 'Electronics', 'Firmware']
+    tags: ['PCB Design', '3D Modeling', 'Soldering', 'Firmware']
   },
   {
     id: 'underwater-turbine-research',
     title: 'Underwater Turbine Efficiency Research',
     description: 'Conducted scientific research on "How does the surface area of the rotor blades of an underwater turbine impact its efficiency in generating electrical power?" with experimental testing and data analysis.',
-    image: '/projects/turbine-research.png',
-    date: '25.04.24',
+    image: '/projects/research.jpeg',
+    date: '06.25',
     category: 'research',
     links: [
       { name: 'Research Paper', url: '/research/research.pdf' }
@@ -131,8 +133,8 @@ export const projects: Project[] = [
     id: 'youtube-video-editing',
     title: 'YouTube Channel Growth (1K→20K)',
     description: 'Video editor for "just aiza" YouTube channel, grew subscriber count from 1,000 to 20,000 and helped achieve 1.2M total views through engaging content and strategic editing.',
-    image: '/projects/youtube-editing.png',
-    date: '30.08.23',
+    image: '/projects/youtube.png',
+    date: '01.23',
     category: 'video-editing',
     links: [
       { name: 'Channel', url: 'https://youtube.com/@justaiza' }
@@ -143,11 +145,13 @@ export const projects: Project[] = [
     id: 'chess-tournament-organization',
     title: 'UWC-Wide Chess Tournament',
     description: 'Organized and won a UWC-wide chess tournament with 202 participants from 18 schools. Managed logistics, created tournament brackets, and coordinated online matches.',
-    image: '/projects/chess-tournament.png',
+    image: '/projects/chess.png',
     date: '15.02.24',
     category: 'leadership',
-    links: [], // No direct links for events
-    tags: ['Event Management', 'Competition', 'Strategy']
+    links: [
+      {name: 'One of the Tournaments', url: 'https://lichess.org/tournament/2iCeVj1e'}
+    ],
+    tags: ['Event Management', 'Competition', 'Chess']
   },
   {
     id: 'stem-community-event',
