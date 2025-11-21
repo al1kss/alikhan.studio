@@ -2,7 +2,8 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import LocalFont from "next/font/local";
 import './globals.css'
-import { Analytics } from '@/components/analytics'
+import { Analytics as BeamAnalytics } from '@/components/analytics'
+import { Analytics as VercelAnalytics } from "@vercel/analytics/next"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: '/', // Replace with your actual URL
+    url: 'www.alikhan.studio', // Replace with your actual URL
     siteName: 'Alikhan Portfolio',
     title: 'Alikhan - Developer & Innovator',
     description: 'Portfolio showcasing projects in web development, AI, hardware, and community initiatives.',
@@ -78,13 +79,14 @@ export default function RootLayout({
   return (
     <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
       <head>
-        <Analytics />
+        <BeamAnalytics />
       </head>
       <body
         className={`bg-gradient-to-br from-zinc-900 via-slate-900 to-zinc-900 ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
           }`}
       >
         {children}
+        <VercelAnalytics />
       </body>
     </html>
   );
