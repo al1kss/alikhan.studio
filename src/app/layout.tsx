@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'www.alikhan.studio', // Replace with your actual URL
+    url: 'www.alikhan.studio',
     siteName: 'Alikhan Portfolio',
     title: 'Alikhan - Developer & Innovator',
     description: 'Portfolio showcasing projects in web development, AI, hardware, and community initiatives.',
