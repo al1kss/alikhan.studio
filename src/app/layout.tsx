@@ -78,11 +78,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
-      <head>
-        <BeamAnalytics />
-      </head>
-      <body
-        className={`bg-gradient-to-br from-zinc-900 via-slate-900 to-zinc-900 ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
+    <head>
+      <link rel="icon" href="/favicon.ico" />
+      <BeamAnalytics />
+    </head>
+    <body
+      className={`bg-gradient-to-br from-zinc-900 via-slate-900 to-zinc-900 ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
           }`}
       >
         {children}
